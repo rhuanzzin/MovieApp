@@ -3,6 +3,8 @@ import { createGlobalStyle } from 'styled-components'
 
 const GlobalStyle = createGlobalStyle`
 
+  $green-r: rgba(0,255,0);
+
   * {
     font-weight: normal;
     margin:0;
@@ -10,7 +12,9 @@ const GlobalStyle = createGlobalStyle`
     list-style:none;
     text-decoration: none;
     border:none;
+    outline:none;
   }
+
   body{
     ::-webkit-scrollbar {
         width: 8px;
